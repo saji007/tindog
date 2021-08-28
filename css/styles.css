@@ -1,0 +1,166 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* title section */
+
+#title {
+  background-color: #FF1A3E;
+  color: #fff;
+  text-align: left;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Monserrat-light"
+}
+
+/* button  */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.titleimg {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  /* (even if i dont give z index in this situation nothing will change) */
+}
+
+.emoji {
+  color: #ff613a;
+  margin-bottom: 1rem;
+}
+
+.emoji:hover {
+  color: #FF1A3E;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+#features  h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ff613a;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section */
+#press {
+  background-color: #ff613a;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing sectiom */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/*  cta section */
+#cta {
+  background-color: #FF1A3E;
+  color: #fff;
+  padding: 7% 17%;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  color: #8f8f8f;
+}
+
+.contact-links {
+  word-spacing: 1rem;
+  margin-bottom: 2%;
+}
+
+.contact-links i {
+  color: #000;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleimg {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
